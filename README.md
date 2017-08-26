@@ -12,7 +12,7 @@ Put another way, the concept of booleans is in principle very simple: let's have
 type that can only have two possible values: true or false. The consequence for this is very 
 broad and very significant. If we assume that booleans, representing either on or off states, 
 also represent something significant in the program, say whether or not a video has finished 
-loading, then we can very easily, and very effeciently, create not just linear programs that 
+loading, then we can very easily, and very efficiently, create not just linear programs that 
 run from start to finish, but branched programs, that travel down a tree of logic based upon 
 what values the booleans we use take.
 
@@ -24,7 +24,7 @@ like a String or a boolean when it finishes running. This is why we have to use 
 identifier when declaring our main() function, because we are telling Java that the main() function 
 doesn't return anything; its return is void). The program can keep calling the isFinishedLoading() 
 function, and can wait before continuing down the program until isFinishedLoading() returns true.
-Booleans, then, are incredibely useful for structuring our programs in non-linear ways.
+Booleans, then, are incredibly useful for structuring our programs in non-linear ways.
 
 Up until this point, you've created programs that run from beginning to end the same way every time.
 With booleans, we can change the outcomes in one part of our code from another part in our code.
